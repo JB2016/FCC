@@ -5,6 +5,9 @@
     font-family: Monospace;
     color: green;
   }
+  .pink-text {
+    color: pink !important;   100% will be PINK 
+  }
   
   .injected-text {
     margin-bottom: -25px;
@@ -33,6 +36,7 @@
     padding: 40px 20px 20px 40px;
   }
 </style>
+<h1 class="pink-text"> Hello World!</h1>
 <body>
 <h5 class="injected-text">margin</h5>
 

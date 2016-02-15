@@ -23,6 +23,13 @@
   .smaller-image {
     width: 100px;
   }
+  
+  .gray-background {
+    background-color: gray;
+  }
+   #cat-photo-form {
+  background-color: green;
+}
 </style>
 
 <h2 class="red-text">CatPhotoApp</h2>
@@ -32,6 +39,7 @@
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 
+<div class="gray-background">
 <p>Things cats love:</p>
 <ul>
   <li>cat nip</li>
@@ -44,5 +52,15 @@
   <li>thunder</li>
   <li>other cats</li>
 </ol>
+</div>
 
-<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>
+<form action="/submit-cat-photo" id="cat-photo-form">
+  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+  
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Angry</label>
+  <label><input type="checkbox" name="personality"> Happy</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>

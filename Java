@@ -11,6 +11,18 @@ fish /= 5;
 var myStr = "To actually put \"quotes\" within a string use backslash\ before each \"";
 var myStrRef = 'To reference a hyperlink: no need for backslashes :) <a href="http://www.example.com" target="_blank">Link</a>';
 
+var myString = "String " + "Another One"
+
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	new line
+\r	carriage return
+\t	tab
+\b	backspace
+\f	form feed
+
 
 function convertmiles(miles) {
   var km = miles * 1.609344;

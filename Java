@@ -8,7 +8,8 @@ fish += 5;
 fish -= 5;
 fish *= 5;
 fish /= 5;
-var myStr = "To actually put \"quotes\" within a string use backslash\ before each \""; 
+var myStr = "To actually put \"quotes\" within a string use backslash\ before each \"";
+var myStrRef = 'To reference a hyperlink: no need for backslashes :) <a href="http://www.example.com" target="_blank">Link</a>';
 
 
 function convertmiles(miles) {
